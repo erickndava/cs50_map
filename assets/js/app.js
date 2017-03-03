@@ -126,7 +126,11 @@ subdomains: ["otile1", "otile2", "otile3", "otile4"],
 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 });
 
-var pioneerColumnTiles = L.tileLayer("http://188.166.38.11:3000/the-pioneer-column-of-1890/{z}/{x}/{y}.png");
+var pioneerColumnTiles = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'
+});
+//var pioneerColumnTiles = L.tileLayer("http://188.166.38.11:3000/the-pioneer-column-of-1890/{z}/{x}/{y}.png");
 
 
 /* Overlay Layers */
