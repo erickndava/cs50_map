@@ -126,11 +126,7 @@ subdomains: ["otile1", "otile2", "otile3", "otile4"],
 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 });
 
-var pioneerColumnTiles = L.tileLayer("http://188.166.38.11:3000/the-pioneer-column-of-1890/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  subdomains: ["otile1", "otile2", "otile3", "otile4"],
-  attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
-});
+var pioneerColumnTiles = L.tileLayer("http://188.166.38.11:3000/the-pioneer-column-of-1890/{z}/{x}/{y}.png");
 
 
 /* Overlay Layers */
