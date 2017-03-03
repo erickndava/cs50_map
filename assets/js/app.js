@@ -342,7 +342,7 @@ $.getJSON("data/p_column_zariba.geojson", function (data) {
 map = L.map("map", {
   zoom: 10,
   center: [30.754,-19.789],//[40.702222, -73.979378],
-  layers: [cartodbPositron, route_bounds, markerClusters, highlight, pioneerColumnTiles],//pioneerColumnTiles
+  layers: [cartodbPositron, route_bounds, markerClusters, highlight],//pioneerColumnTiles
   zoomControl: false,
   attributionControl: false
 });
