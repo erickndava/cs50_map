@@ -130,7 +130,7 @@ input[type="radio"], input[type="checkbox"] {
 .typeahead-header {
   margin: 0 5px 5px 5px;
   padding: 3px 0;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #4E9FE5;
 }
 .has-feedback .form-control-feedback {
   position: absolute;
